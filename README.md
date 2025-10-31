@@ -31,5 +31,3 @@ Hosting: Vercel / Render / MongoDB Atlas
 💡 Goal
 
 This project demonstrates how to build a scalable video-sharing platform with modern web technologies, real-time updates, and clean architecture. demonstrates how to build a scalable video-sharing platform with modern web technologies, real-time updates, and clean architecture.
-
-Chaa
