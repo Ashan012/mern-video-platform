@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-
 import conncectionDB from "./db/index.js";
 import { app } from "./app.js";
 dotenv.config({ path: "./.env" });
