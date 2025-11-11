@@ -1,10 +1,10 @@
 import dotenv from "dotenv";
-import conncectionDB from "./db/index.js";
-import { app } from "./app.js";
 dotenv.config({ path: "./.env" });
 
-const Port = process.env.PORT || 8000;
+import conncectionDB from "./db/index.js";
+import { app } from "./app.js";
 
+const Port = process.env.PORT || 8000;
 conncectionDB()
   .then(() => {
     app.listen(Port, () => {
